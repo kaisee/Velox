@@ -20,6 +20,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1.6rem; /* 10px * 1.6 = 16px */
+	color: #999999;
 }
 
 
@@ -173,6 +174,77 @@ h2.main-title::after {
 	margin-bottom: 130px;
 }
 
+.services-list {
+	margin: 0;
+	padding: 0;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.services-list .services-item {
+	width: 252px;
+	min-height: 205px;
+	text-align: center;
+	list-style-type: none;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	background: transparent url('../img/icons/icon-logo-design.png') no-repeat top center;
+}
+
+.services-list .services-item:nth-child(2) {
+	background: transparent url('../img/icons/icon-web-design-.png') no-repeat top center;
+}
+
+.services-list .services-item:nth-child(3) {
+	background: transparent url('../img/icons/icon-branding-.png') no-repeat top center;
+}
+
+.services-list .services-item:nth-child(4) {
+	background: transparent url('../img/icons/icon-ill.png') no-repeat top center;
+}
+
+.services-list .services-item h3.services-subtitle {
+	margin: 0;
+	margin-bottom: 28px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #3a3f4b;
+	transform: scaleY(1.0002);
+	text-transform: uppercase;
+}
+
+.services-list .services-item h3.services-subtitle::after {
+	content: "";
+	position: absolute;
+	top: 35px;
+	left: 40%;
+	width: 41px;
+	height: 1px;
+	border: 1px solid #6a6a6a;
+	background-color: #3a3f4b;
+}
+
+.services-list .services-item p {
+	margin: 0;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 20px;
+	transform: scaleY(1.0002);
+}
 
 
 /*==========  Desktop First Method  ==========*/
