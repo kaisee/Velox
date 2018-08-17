@@ -467,9 +467,57 @@ h2.main-title::after {
 /*
 	* Footer
 */
+.footer-contacts {
+	padding-top: 84px;
+	background-color: #3b404c;
+}
 
+.footer-top-section {
+	margin-bottom: 111px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
+h2.header-title {
+	margin: 0;
+	font-family: 'Lora', serif;
+	color: #fff;
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 24px;
+}
 
+.footer-list {
+	margin: 0;
+	padding: 0;
+	width: 460px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-list .footer-list-item {
+	list-style-type: none;
+}
+
+.footer-list .footer-list-item a {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 43px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-contacts-us
 
 
 /*==========  Desktop First Method  ==========*/
