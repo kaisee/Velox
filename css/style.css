@@ -353,12 +353,59 @@ h2.main-title::after {
 	font-weight: 600;
 }
 
-
-
 /*
 	* // Portfolio
 */
 
+/*
+	* Brands
+*/
+.brands {
+	min-height: 430px;
+	padding-top: 60px;
+}
+.brands .main-title {
+	margin-bottom: 100px;
+}
+
+.brands-list {
+	min-height: 97px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.brands-list .brands-list__item {
+	list-style-type: none;
+}
+
+.brands-list .brands-list__item a {
+	width: 124px;
+	height: 97px;
+	display: table-cell;
+	opacity: .7;
+	vertical-align: middle;
+}
+
+.brands-list .brands-list__item a:hover,
+.brands-list .brands-list__item a:active,
+.brands-list .brands-list__item a:focus {
+	opacity: 1;
+}
+
+.brands-list .brands-list__item a img {
+	
+}
+
+/*
+	* // Brands
+*/
 
 
 
