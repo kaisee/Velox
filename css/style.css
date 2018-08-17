@@ -1,0 +1,190 @@
+@import "utils.css";
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+html, body {
+	height: 100%;
+}
+
+html {
+	font-size: 10px;
+	line-height: 1.4;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem; /* 10px * 1.6 = 16px */
+}
+
+
+
+.main-header {
+	background: #989da4 url('../img/bg/background-image.jpg') no-repeat top center;
+}
+
+.main-header .container {
+	min-height: 711px;
+}
+
+.main-header .top-section {
+	min-height: 60px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.main-navigation {
+	width: 530px;
+}
+
+.nav-list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	margin: 0;
+	padding: 0;
+	min-height: 50px;
+	list-style-type: none;
+}
+
+.nav-list-item a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-list-item a:hover,
+.nav-list-item a:active,
+.nav-list-item a:focus {
+	color: #00a5ff;
+}
+
+/* Billboard */
+.billboard-section {
+	min-height: 650px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.billboard {
+	width: 700px;
+	min-height: 280px;
+	text-align: center;
+	color: #fff;
+}
+
+.billboard-text {
+	margin-bottom: 88px;
+}
+
+.billboard-text h1 {
+	margin: 0;
+	margin-bottom: 35px;
+	font-family: 'Lora', serif;
+	font-size: 58px;
+	font-weight: 700;
+}
+
+.billboard-text p {
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+.btn {
+	display: inline-block;
+	width: 280px;
+	height: 63px;
+	padding-top: 13px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #00a5ff;
+	border-radius: 30px;
+	box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+}
+
+/* // Billboard */
+
+/* // Header */
+
+
+/*
+	Our Services
+*/
+
+.services {
+	min-height: 537px;
+}
+
+h2.main-title {
+	position: relative;
+	font-family: 'Lora', serif;
+	font-size: 42px;
+	font-weight: 700;
+	color: #3a3f4b;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2.main-title::after {
+	position: absolute;
+	left: 45%;
+	bottom: -23px;
+	content: "";
+	width: 147px;
+	height: 4px;
+	background-color: #00a5ff;
+}
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (max-width : 320px) {
+
+}
