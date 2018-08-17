@@ -517,7 +517,24 @@ h2.header-title {
 	text-decoration: none;
 }
 
-.footer-contacts-us
+.footer-contacts-us {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-our-contacts {
+	width: 310px;
+	min-height: 337px;
+}
+
+.footer-contacts-form {
+	width: 770px;
+	min-height: 335px;
+}
 
 
 /*==========  Desktop First Method  ==========*/
