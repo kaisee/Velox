@@ -125,8 +125,15 @@ body {
 	text-align: center;
 	text-decoration: none;
 	background-color: #00a5ff;
-	border-radius: 30px;
+	border-radius: 25px;
 	box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+}
+
+.btn-get-started {
+	width: 320px;
+	height: 72px;
+	padding-top: 17px;
+	border-radius: 35px;
 }
 
 /* // Billboard */
@@ -161,6 +168,12 @@ h2.main-title::after {
 	height: 4px;
 	background-color: #00a5ff;
 }
+
+.services h2.main-title {
+	margin-bottom: 130px;
+}
+
+
 
 /*==========  Desktop First Method  ==========*/
 
