@@ -27,6 +27,8 @@ body {
 
 .main-header {
 	background: #989da4 url('../img/bg/background-image.jpg') no-repeat top center;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .main-header .container {
@@ -148,10 +150,12 @@ body {
 
 .services {
 	min-height: 537px;
+	padding-top: 60px;
 }
 
 h2.main-title {
 	position: relative;
+	margin: 0;
 	font-family: 'Lora', serif;
 	font-size: 42px;
 	font-weight: 700;
@@ -245,6 +249,117 @@ h2.main-title::after {
 	line-height: 20px;
 	transform: scaleY(1.0002);
 }
+
+/*
+	* //Our Services
+*/
+
+
+/*
+	* Portfolio
+*/
+.portfolio {
+	padding-top: 45px;
+	min-height: 1153px;
+	background-color: #f5f6f8;
+}
+
+.portfolio .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio h2.main-title {
+	margin-bottom: 63px;
+}
+
+.portfolio-filter {
+	width: 550px;
+	min-height: 10px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.portfolio-filter .portfolio-filter__item {
+	list-style-type: none;
+}
+
+.portfolio-filter .portfolio-filter__item a {
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #999;
+}
+
+.portfolio-list {
+	margin: 0;
+	margin-bottom: 47px;
+	padding: 0;
+	min-height: 715px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+.portfolio-list li {
+	width: 380px;
+	height: 350px;
+	margin-bottom: 15px;
+	list-style-type: none;
+	box-shadow: 1px 2px 4.9px 0.1px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-list li .portfolio-image {
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio-list .portfolio-image img {
+	width: 380px;
+	height: 281px;
+}
+
+.portfolio-list .filter-item-description {
+	padding-top: 18px;
+	padding-left: 32px;
+	padding-right: 32px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+
+/*
+	* // Portfolio
+*/
+
+
 
 
 /*==========  Desktop First Method  ==========*/
